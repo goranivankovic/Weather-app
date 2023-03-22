@@ -82,6 +82,7 @@
 	color: white;
 	font-weight: bolder;
 	margin-left: 1em;
+	cursor: pointer;
 
 
 }
@@ -456,7 +457,7 @@ input[type="text"] {
 
 
 	.input {
-		width: 80%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
