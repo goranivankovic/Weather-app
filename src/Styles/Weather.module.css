@@ -623,7 +623,7 @@ input[type="text"] {
 
 	.firstDiv {
 	
-			width: 95%;
+			width: 85%;
 			display: flex;
 			justify-content: flex-end;
 			align-items: flex-end;
@@ -741,7 +741,7 @@ input[type="text"] {
 	
 		.threddDiv {
 	
-			width: 95%;
+			width: 90%;
 			flex-direction: row;
 			color: #ffffff;
 			display: flex;
