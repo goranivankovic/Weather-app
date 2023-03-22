@@ -442,6 +442,9 @@ useEffect(async () => {
 
 
 
+
+
+
     {laz  ?
 
 
@@ -459,7 +462,7 @@ useEffect(async () => {
 
                   <span>{day1Date.slice(8,10)}.{day1Date.slice(5,7)}  | {day1Date.slice(0,4)}  |  {day1Date.slice(10,16)}</span>  
                   {Math.floor(day1Temp)+'\xB0'}  
-                 <span>{day1Wind}/ms {day1Desc}   {day1Pressure} mb </span>
+                 <span>{day1Wind}/ms  <span className={weatherStyle.weatherComment} >{day1Desc}</span>   {day1Pressure} mb </span>
                   <img src={day1Image} alt="Weather" />
                                          
             </div>
@@ -473,7 +476,7 @@ useEffect(async () => {
 
                   <span>{day2Date.slice(8,10)}.{day2Date.slice(5,7)}  | {day2Date.slice(0,4)}  |  {day2Date.slice(10,16)}</span>  
                   {Math.floor(day2Temp)+'\xB0'}  
-                 <span>{day2Wind}/ms {day2Desc}   {day2Pressure} mb </span>
+                 <span>{day2Wind}/ms <span className={weatherStyle.weatherComment} >{day2Desc}</span>   {day2Pressure} mb </span>
                   <img src={day2Image} alt="Weather" />
                                          
             </div>
@@ -485,7 +488,7 @@ useEffect(async () => {
 
                   <span>{day3Date.slice(8,10)}.{day3Date.slice(5,7)}  | {day3Date.slice(0,4)}  |  {day3Date.slice(10,16)}</span>  
                   {Math.floor(day3Temp)+'\xB0'}  
-                 <span>{day3Wind}/ms {day3Desc}   {day3Pressure} mb </span>
+                 <span>{day3Wind}/ms <span className={weatherStyle.weatherComment} >{day3Desc}</span>   {day3Pressure} mb </span>
                   <img src={day3Image} alt="Weather" />
                                          
             </div>
@@ -497,7 +500,7 @@ useEffect(async () => {
 
                   <span>{day4Date.slice(8,10)}.{day4Date.slice(5,7)}  | {day4Date.slice(0,4)}  |  {day4Date.slice(10,16)}</span>  
                   {Math.floor(day4Temp)+'\xB0'}  
-                 <span>{day4Wind}/ms {day4Desc}   {day4Pressure} mb </span>
+                 <span>{day4Wind}/ms <span className={weatherStyle.weatherComment} >{day4Desc}</span>   {day4Pressure} mb </span>
                   <img src={day4Image} alt="Weather" />
                                          
             </div>
@@ -511,7 +514,7 @@ useEffect(async () => {
 
                   <span>{day5Date.slice(8,10)}.{day5Date.slice(5,7)}  | {day5Date.slice(0,4)}  |  {day5Date.slice(10,16)}</span>  
                   {Math.floor(day5Temp)+'\xB0'}  
-                 <span>{day5Wind}/ms {day5Desc}   {day5Pressure} mb </span>
+                 <span>{day5Wind}/ms <span className={weatherStyle.weatherComment} >{day5Desc}</span>   {day5Pressure} mb </span>
                   <img src={day5Image} alt="Weather" />
                                          
             </div>
